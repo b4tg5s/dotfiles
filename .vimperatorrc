@@ -1,0 +1,32 @@
+"3.12.0 (created: 2016/02/28 22:07:56)
+
+source! "C:\\Users\\balint\\_vimperatorrc.local"
+
+" vim: set ft=vimperator:
+
+" GUI
+set gui=nonavigation
+
+" Scrolling Buffers
+:nnoremap j 8j
+:nnoremap J <C-f>
+:nnoremap k 8k
+:nnoremap K <C-b>
+
+" Navigate Tabs
+:nnoremap h <C-p>
+:nnoremap l <C-n>
+
+" Toogle Statusbar
+map <silent> <F8> :js toggle_bottombar()<CR>
+
+
+:js << EOF
+function toggle_bottombar() {
+  var bb = document.getElementById('liberator-bottombar');
+  if (!bb)
+    return;
+  bb.style.height = (bb.style.height == '') ? '0px' : '';
+  bb.style.overflow = (bb.style.height == '') ? '' : 'hidden';
+}
+EOF
