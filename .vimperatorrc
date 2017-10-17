@@ -4,22 +4,38 @@ source! "C:\\Users\\balint\\_vimperatorrc.local"
 
 " vim: set ft=vimperator:
 
-" GUI
+
+""" GUI """
+
 set gui=nonavigation
 
-" Scrolling Buffers
+" Toogle Statusbar
+map <silent> <F8> :js toggle_bottombar()<CR>
+
+" Toggle Sidebar Bookmarks
+:nnoremap <silent> <C-b> :sb Lesezeichen<CR>
+
+
+""" MOVE AROUND """
+
+" Scrolling in Buffers
 :nnoremap j 8j
 :nnoremap J <C-f>
 :nnoremap k 8k
 :nnoremap K <C-b>
 
-" Navigate Tabs
+
+""" NAVIGATION """
+
+" Tabs
 :nnoremap h <C-p>
 :nnoremap l <C-n>
 
-" Toogle Statusbar
-map <silent> <F8> :js toggle_bottombar()<CR>
+" Panorama
+:nnoremap <C-s> :panorama switch 
 
+
+""" HELPER """
 
 :js << EOF
 function toggle_bottombar() {
