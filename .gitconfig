@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = balint
+	email = balint@gyapjas.de
+
+[credential "https://github.com"]
+	username =b4tg5s
