@@ -1,5 +1,5 @@
 ### Tools
-* [qutebrowser]()
-* [zsh]()
-* [vimperator]() deprecated
-* [vim]()
+* [qutebrowser](https://qutebrowser.org/)
+* [zsh](http://zsh.org)
+* [vim](http://www.vim.org/)
+* [vimperator](https://github.com/vimperator/vimperator-labs) _deprecated_
