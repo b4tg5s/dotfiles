@@ -58,7 +58,7 @@ ZSH_THEME="gallois"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autopep8 common-aliases dnf git pylint python sudo)
+plugins=(autopep8 common-aliases dnf git pylint python sudo vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -90,3 +90,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# decrease delay after <ESC> key to 0.1 seconds
+export KEYTIMEOUT=1
