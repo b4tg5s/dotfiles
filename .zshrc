@@ -58,7 +58,7 @@ ZSH_THEME="gallois"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autopep8 common-aliases dnf git pylint python sudo vi-mode)
+plugins=(autopep8 common-aliases dnf git pylint python sudo tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -96,3 +96,7 @@ export KEYTIMEOUT=1
 
 # custom java libs
 export CLASSPATH=/usr/share/java/javax.mail/java.mail.jar:.
+
+# configure tmux plugin
+export ZSH_TMUX_AUTOSTART=true
+
