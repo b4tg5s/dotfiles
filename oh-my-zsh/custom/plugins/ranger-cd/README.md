@@ -6,5 +6,5 @@ After ranger quits, automatically change the current directory of zsh to the
 last visited directory in ranger.
 
 Code comes from a [ranger plugin](https://github.com/ranger/ranger/blob/master/examples/bash_automatic_cd.sh)
-for bash, repacked as an oh-my-zsh plugin for zsh.
+for bash, repacked as an [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/) plugin for zsh.
 
