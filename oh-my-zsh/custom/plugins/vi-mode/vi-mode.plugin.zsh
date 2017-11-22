@@ -1,7 +1,12 @@
 # Updates editor information when the keymap changes.
-function zle-line-init zle-keymap-select(){
+function zle-keymap-select(){
   zle reset-prompt
   zle -R
+}
+
+# Ensures that MODE_INDITCATOR is displayed on terminal start up.
+function zle-line-init(){
+  zle reset-prompt
 }
 
 # Ensure that the prompt is redrawn when the terminal size changes.
@@ -12,7 +17,6 @@ TRAPWINCH() {
 
 zle -N zle-keymap-select
 zle -N edit-command-line
-zle -N zle-line-init
 
 
 bindkey -v
