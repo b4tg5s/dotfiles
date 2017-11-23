@@ -1,18 +1,17 @@
 # Updates editor information when the keymap changes.
-function zle-line-init zle-keymap-select(){
+function zle-keymap-select() {
   zle reset-prompt
   zle -R
 }
 
 # Ensure that the prompt is redrawn when the terminal size changes.
 TRAPWINCH() {
-  zle reset-prompt
   zle &&  zle -R
+  zle reset-prompt
 }
 
 zle -N zle-keymap-select
 zle -N edit-command-line
-zle -N zle-line-init
 
 
 bindkey -v
