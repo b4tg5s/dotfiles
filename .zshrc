@@ -94,9 +94,6 @@ source $ZSH/oh-my-zsh.sh
 # decrease delay after <ESC> key to 0.1 seconds
 export KEYTIMEOUT=1
 
-# custom java libs
-export CLASSPATH=/usr/share/java/javax.mail/java.mail.jar:.
-
 # configure tmux plugin
 #tmux attach &> /dev/null
 #if [[ ! $TERM =~ screen ]]; then

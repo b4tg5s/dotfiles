@@ -10,3 +10,6 @@ set splitright
 
 """ Show linenumbers
 set nu
+
+""" Colorscheme
+colorscheme torte
