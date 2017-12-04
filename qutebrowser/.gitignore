@@ -1,4 +1,4 @@
 # unnecessary files
+qsettings/QtProject.conf
 autoconfig.yml
 keys.conf
-qutebrowser.conf
