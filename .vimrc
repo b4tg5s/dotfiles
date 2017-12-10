@@ -13,3 +13,13 @@ set nu
 
 """ Colorscheme
 colorscheme torte
+
+""" Powerline setup
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
+
+""" Powerline config
+set laststatus=2 " Display statusline if only one window
+set noshowmode " Hide vim's own display of mode
+set t_Co=256
