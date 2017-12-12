@@ -23,3 +23,6 @@ python3 del powerline_setup
 set laststatus=2 " Display statusline if only one window
 set noshowmode " Hide vim's own display of mode
 set t_Co=256
+
+""" Fix delay when switching to normal mode with ESC
+set ttimeoutlen=100

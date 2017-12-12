@@ -6,3 +6,5 @@
 
 [credential "https://github.com"]
 	username =b4tg5s
+[alias]
+	lg = log --graph --pretty=format:'%Cblue%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Creset' --abbrev-commit
