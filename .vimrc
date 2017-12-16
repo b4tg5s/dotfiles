@@ -26,3 +26,7 @@ set t_Co=256
 
 """ Fix delay when switching to normal mode with ESC
 set ttimeoutlen=100
+
+""" search case sensitive/insensitive depending on input case
+set ignorecase
+set smartcase
