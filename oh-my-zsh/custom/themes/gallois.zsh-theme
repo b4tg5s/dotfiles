@@ -18,8 +18,8 @@ ZSH_THEME_RVM_PROMPT_PREFIX="%{$fg[red]%}["
 ZSH_THEME_RVM_PROMPT_SUFFIX="]%{$reset_color%}"
 
 # vi-mode indicator
-VIM_NORMAL="%BNORM%b"
-VIM_INSERT="%BINSR%b"
+VIM_NORMAL="%B:%b"
+VIM_INSERT="%B+%b"
 
 # provide vim mode indicator if vi-mode is active
 function _vi_status() {
@@ -31,4 +31,4 @@ function _vi_status() {
 # Combine it all into a final right-side prompt
 RPS1='$(git_custom_status)$(ruby_prompt_info) $EPS1'
 
-PROMPT='%{$fg[cyan]%}[%~% ]%(?.%{$fg[green]%}.%{$fg[red]%}) $(_vi_status) '
+PROMPT='%{$fg[cyan]%}[%~% ]%(?.%{$fg[green]%}.%{$fg[red]%})$(_vi_status) '
