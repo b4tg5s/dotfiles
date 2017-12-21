@@ -13,3 +13,7 @@ c.auto_save.session = True
 # Open new tabs (middleclick/ctrl+click) in the background.
 # Type: Bool
 c.tabs.background = True
+
+# Search engines
+#googlemaps = http://maps.google.com/?q={}
+#gm = ${googlemaps}

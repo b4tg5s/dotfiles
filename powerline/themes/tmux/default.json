@@ -2,6 +2,13 @@
 	"segments": {
 		"right": [
 			{
+				"function": "powerline.segments.common.sys.uptime",
+				"name": "uptime",
+				"args": {
+					"shorten_len": 1
+				}
+			},
+			{
 				"function": "powerline.segments.common.time.date",
 				"name": "time",
 				"args": {

@@ -1,7 +1,13 @@
+# tmux plugin config
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOSTART_ONCE=false
+ZSH_TMUX_AUTOCONNECT=false
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+
 export ZSH=/home/balint/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
