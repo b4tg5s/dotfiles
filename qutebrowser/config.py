@@ -10,10 +10,36 @@
 # Type: Bool
 c.auto_save.session = True
 
+# Font used in the tab bar.
+# Type: QtFont
+c.fonts.tabs = '12'
+
 # Open new tabs (middleclick/ctrl+click) in the background.
 # Type: Bool
 c.tabs.background = True
 
-# Search engines
-#googlemaps = http://maps.google.com/?q={}
-#gm = ${googlemaps}
+# Padding around text for tabs
+# Type: Padding
+c.tabs.padding = {'top': 1, 'bottom': 2, 'left': 5, 'right': 5}
+
+# The position of the tab bar.
+# Type: Position
+# Valid values:
+#   - top
+#   - bottom
+#   - left
+#   - right
+c.tabs.position = 'top'
+
+# The width of the tab bar if it's vertical, in px or as percentage of
+# the window.
+# Type: PercOrInt
+c.tabs.width.bar = '20%'
+
+# Width of the progress indicator (0 to disable).
+# Type: Int
+c.tabs.width.indicator = 3
+
+# The default zoom level.
+# Type: Perc
+c.zoom.default = '110'
