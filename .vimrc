@@ -15,9 +15,9 @@ set nu
 colorscheme torte
 
 """ Powerline setup
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
+"python3 from powerline.vim import setup as powerline_setup
+"python3 powerline_setup()
+"python3 del powerline_setup
 
 """ Powerline config
 set laststatus=2 " Display statusline if only one window
@@ -30,3 +30,7 @@ set ttimeoutlen=100
 """ search case sensitive/insensitive depending on input case
 set ignorecase
 set smartcase
+
+
+""" use system clipboard for yanking and pasting
+set clipboard=unnamedplus

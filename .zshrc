@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vim=vimx
 
 # decrease delay after <ESC> key to 0.1 seconds
 export KEYTIMEOUT=1

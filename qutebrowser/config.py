@@ -10,6 +10,9 @@
 # Type: Bool
 c.auto_save.session = True
 
+#
+c.messages.timeout = 6000
+
 # Font used in the tab bar.
 # Type: QtFont
 c.fonts.tabs = '12'
@@ -30,3 +33,13 @@ c.tabs.padding = {'top': 1, 'bottom': 2, 'left': 5, 'right': 5}
 #   - left
 #   - right
 c.tabs.position = 'top'
+
+# Zoom
+c.zoom.default = '125'
+
+# Search engines
+c.url.searchengines = {"DEFAULT" : "https://www.google.com/search?hl=de&q={}", "maps" : "http://maps.google.com/?q={}"}
+
+## Keybinding
+# Open new tab related to current tab.
+config.bind("O", "set-cmd-text -s :open -rt")
