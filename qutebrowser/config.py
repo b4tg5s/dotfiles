@@ -5,6 +5,12 @@
 # Type: Bool
 c.auto_save.session = True
 
+# bookmarks
+config.bind('a', 'set-cmd-text -s :bookmark-add {url}')
+config.bind('A', 'bookmark-add -t')
+config.bind('b', 'set-cmd-text -s :bookmark-load')
+config.bind('B', 'set-cmd-text -s :bookmark-load -t')
+
 # Message timeout
 c.messages.timeout = 6000
 
