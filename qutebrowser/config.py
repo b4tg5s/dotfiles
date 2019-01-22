@@ -21,7 +21,10 @@ c.zoom.default = '125'
 # Search engines
 c.url.searchengines = {
     "DEFAULT" : "https://www.google.com/search?hl=de&q={}",
-    "maps" : "http://maps.google.com/?q={}" }
+    "ddg" : "https://duckduckgo.com/?q={}",
+    "maps" : "https://www.openstreetmap.org/search?query={}",
+    "gmaps" : "http://maps.google.com/?q={}",
+}
 
 #
 c.scrolling.bar = "always"
