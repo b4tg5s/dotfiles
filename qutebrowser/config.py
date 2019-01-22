@@ -23,6 +23,9 @@ c.url.searchengines = {
     "DEFAULT" : "https://www.google.com/search?hl=de&q={}",
     "maps" : "http://maps.google.com/?q={}" }
 
+#
+c.scrolling.bar = "always"
+
 ## Keybinding
-# Open new tab related to current tab.
+# new tab is opened next to current tab
 config.bind("O", "set-cmd-text -s :open -rt")
