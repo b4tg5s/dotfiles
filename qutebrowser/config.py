@@ -12,13 +12,17 @@ config.bind('b', 'set-cmd-text -s :bookmark-load')
 config.bind('B', 'set-cmd-text -s :bookmark-load -t')
 
 
+c.downloads.location.suggestion = 'both'
+
 # Keys
+config.bind("<esc>", "clear-keychain ;; search ;; fullscreen --leave ;; clear-messages")
+# new tab next to current tab
 config.bind("O", "set-cmd-text -s :open -rt")
 # open download
 config.bind("<ctrl-o>", "download-open")
 # move tabs around
 config.bind("<alt-shift-k>", "tab-move -")
-config.bind("<alt-shift-r>", "tab-move +")
+config.bind("<alt-shift-j>", "tab-move +")
 
 
 # Looks
