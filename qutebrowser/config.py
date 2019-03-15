@@ -33,9 +33,11 @@ c.zoom.default = '125'
 
 # Search engines
 c.url.searchengines = {
-    "DEFAULT" : "https://www.google.com/search?hl=de&q={}",
-    "ddg" : "https://duckduckgo.com/?q={}",
-    "maps" : "https://www.openstreetmap.org/search?query={}",
+    "DEFAULT"   : "https://duckduckgo.com/?q={}",
+    "s"     : "https://startpage.com/do/asearch?q={}",
+    "g"     : "https://www.google.com/search?hl=de&q={}",
+    "d"     : "https://www.duden.de/suchen/dudenonline/{}",
+    "maps"  : "https://www.openstreetmap.org/search?query={}",
     "gmaps" : "http://maps.google.com/?q={}",
 }
 
